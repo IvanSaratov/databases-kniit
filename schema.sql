@@ -95,4 +95,3 @@ ALTER TABLE `history`
 
 ALTER TABLE `service`
   ADD CONSTRAINT `service_ibfk_1` FOREIGN KEY (`hostel_id`) REFERENCES `hostel` (`id`);
-COMMIT;
