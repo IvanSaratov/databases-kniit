@@ -38,7 +38,7 @@ CREATE TABLE person (
   surname varchar(256) NOT NULL,
   patronymic varchar(256) DEFAULT NULL,
   birthday datetime NOT NULL,
-  phone int(11) NOT NULL,
+  phone bigint(11) NOT NULL,
   email varchar(256) NOT NULL,
   passport_number int(11) NOT NULL,
   passport_serial int(11) NOT NULL
